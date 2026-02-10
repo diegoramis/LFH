@@ -184,7 +184,7 @@
       min-height: 360px;
     }
     .p .img{height: 180px; background:rgba(255,255,255,.06); position:relative; overflow:hidden}
-    .p .img img{width:100%; height:100%; object-fit:cover}
+    .p .img img{width:90%; height:90%; object-fit:cover}
     .tag{
       position:absolute; top:12px; left:12px;
       font-size:12px; font-weight:900;
@@ -703,7 +703,7 @@ Gracias.`;
   });
 
   // Info text + year
-  $("#whatsText").textContent = `📲 WhatsApp de pedidos: +${WHATSAPP_NUMBER}`;
+  $("#whatsText").textContent = `📲 WhatsApp de pedidos: +${WHATSAPP_NUMBER} (edítalo en el código)`;
   $("#year").textContent = new Date().getFullYear();
 
   // Init
